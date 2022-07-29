@@ -1,0 +1,17 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    color: blue;
+    font-size: 2em;
+   
+}
+
+.caixa h2 {
+    font-size: 30px;
+}
