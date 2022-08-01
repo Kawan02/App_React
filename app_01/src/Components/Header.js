@@ -4,8 +4,8 @@ import React from "react"
 
 export default function Header() {
     return (
-        <header>
-            <h1>Sejá bem vindo(a) ao nosso site!</h1>
+        <header className="header h1">
+            <h1>Faça parte do nosso time</h1>
         </header>
     )
 }
