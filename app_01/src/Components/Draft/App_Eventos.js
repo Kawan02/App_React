@@ -1,9 +1,8 @@
 //Eventos 
-
 import React, {useState} from 'react'
 import Led from './Components/Led'
 
-export default function App() {
+export default function App_Eventos() {
 
   const [ligado, setLigado] = useState(false)
 
