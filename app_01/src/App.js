@@ -1,5 +1,5 @@
 import React from 'react'
-import AppState from './Components/Draft/AppState'
+import AppStateElevacao from './Components/Draft/ElevacaoState/AppStateElevacao'
 
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
 
   return(
     <>
-      <AppState/>
+      <AppStateElevacao/>
     </>
   )
 }
