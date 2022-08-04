@@ -1,11 +1,11 @@
 import React from 'react'
-import StateComponents from './Components/Draft/StateComponentesClasses/StateComponents'
+import AppQualquer from './Components/Draft/Bind/AppQualquer'
 
 export default function App() {
 
   return(
     <>
-     <StateComponents/>
+     <AppQualquer/>
     </>
   )
 }
