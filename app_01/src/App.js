@@ -1,13 +1,11 @@
 import React from 'react'
-import AppStateElevacao from './Components/Draft/ElevacaoState/AppStateElevacao'
-
+import StateComponents from './Components/Draft/StateComponentesClasses/StateComponents'
 
 export default function App() {
 
-
   return(
     <>
-      <AppStateElevacao/>
+     <StateComponents/>
     </>
   )
 }
