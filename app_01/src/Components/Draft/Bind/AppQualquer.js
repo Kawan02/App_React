@@ -6,10 +6,10 @@ export default function AppQualquer() {
 
     const [carro, setCarro] = useState()
 
-    const Ocultar = () => {
-        setCarro(!carro)
+     const Ocultar = () => {
+      setCarro(!carro)
 
-    }
+     }
     return (
         <>
             <h1>Curso de React</h1>

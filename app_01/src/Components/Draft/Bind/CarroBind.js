@@ -1,4 +1,4 @@
-import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers'
+
 import React from 'react'
 import './Test.css'
 
@@ -51,7 +51,9 @@ export default class AppCiclo extends React.Component {
                 <button onClick = {this.liga}>
                     {this.state.ligado ? "Desligar Carro" : "Ligar Carro"}
                 </button>
-                <button className = 'acelerar' onClick = {this.acelera}>Acelerar</button>
+                <button className = 'acelerar' onClick = {this.acelera}>
+                   Acelerar
+                </button>
                 <button className = 'acelerar' onClick = {this.desacelera}>Desacelerar</button>
             </>
         )

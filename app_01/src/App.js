@@ -1,11 +1,12 @@
 import React from 'react'
-import AppQualquer from './Components/Draft/Bind/AppQualquer'
+import EntreTelas from './Components/Draft/ReactNative/EntreTelas'
+
 
 export default function App() {
 
   return(
     <>
-     <AppQualquer/>
+     <EntreTelas/>
     </>
   )
 }
