@@ -1,0 +1,19 @@
+.botao{
+    font-size: 1.2em;
+    background: #009933;
+    margin: 0;
+    margin-bottom: 1em;
+    color: #f1f1f1 ;
+    padding: 0.1em 0.6em;
+    box-shadow: 2px 2px 2px #1C1C1C ;
+    text-shadow: 1px 1px 1px 	#009933;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50% ;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background-color: #FF0000;
+}

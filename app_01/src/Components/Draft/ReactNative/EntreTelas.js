@@ -41,8 +41,8 @@ export default function EntreTelas() {
         <>
             <div>
                 <h2>Seja bem vindo ao nosso portal!</h2>
-                {retornaPagina()}
             </div>
+            {retornaPagina()}
         </>
     )
 }

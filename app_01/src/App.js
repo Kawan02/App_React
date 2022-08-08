@@ -1,12 +1,12 @@
 import React from 'react'
-import EntreTelas from './Components/Draft/ReactNative/EntreTelas'
+import AppCalculadora from './Components/Draft/Prática/Calculadora/AppCalculadora'
 
 
 export default function App() {
 
   return(
     <>
-     <EntreTelas/>
+     <AppCalculadora/>
     </>
   )
 }
