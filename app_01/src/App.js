@@ -1,12 +1,14 @@
-import React from 'react'
-import AppCalculadora from './Components/Draft/Prática/Calculadora/AppCalculadora'
+import React, {useState} from 'react'
+import Calculadora from './Components/Draft/CalculadoraMatematica/Calculadora'
+
+// import Calculadora from './Components/Draft/CalculadoraMatematica/Calculadora'
 
 
 export default function App() {
 
   return(
     <>
-     <AppCalculadora/>
+     <Calculadora/>
     </>
   )
 }

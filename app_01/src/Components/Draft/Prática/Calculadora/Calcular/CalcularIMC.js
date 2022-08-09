@@ -1,15 +1,21 @@
 import React from "react";
 import './Cal.css'
 
-export default function CalcularIMC(props) {
+export default class CalcularIMC extends React.Component {
+    constructor(props) {
+        super(props)
+        this.calc = this.calc.bind(this)
+    }
     
-    const calc = () => {
-        props.r (props.p/(props.a*props.a))
+    calc = () => {
+        this.props.r (this.props.p/(this.props.a * this.props.a))
     }
 
-    return (
-        <div> 
-            <button className = "bot" onClick = {calc}>Calcular</button>
-        </div>
-    )
+    render() {
+        return (
+            <div> 
+                <button className = "bot" onClick = {this.calc}>Calcular</button>
+            </div>
+        )
+    }
 }

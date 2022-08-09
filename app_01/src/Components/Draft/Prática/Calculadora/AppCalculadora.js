@@ -1,9 +1,9 @@
 import React, { useState } from "react"
-import TabelaIMC from "./Tabela/TabelaIMC"
 import Peso from "./Peso/Peso"
 import Altura from "./Altura/Altura"
 import CalcularIMC from "./Calcular/CalcularIMC"
 import Resultado from "./Resultado/Resultado"
+import TabelaIMC from "./Tabela_01/TabelaIMC"
 
 export default function AppCalculadora() {
 
