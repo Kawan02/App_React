@@ -33,6 +33,10 @@
     outline: none;
 }
 
+.botao:hover{
+    cursor: pointer;
+}
+
 .conteiner {
     display: flex;
     justify-content: flex-start;
@@ -45,4 +49,12 @@
 .botoes {
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.botoes:hover{
+    cursor: pointer;
+}
+
+.ha{
+    color: #000;
 }

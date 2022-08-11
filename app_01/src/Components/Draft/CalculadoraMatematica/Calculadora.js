@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-// import './StyleCalculadora.css'
+import './StyleCalculadora.css'
 
 export default function Calculadora() {
 
@@ -77,7 +77,7 @@ export default function Calculadora() {
         paddingRight: 20,
         justifyContent: 'center',
         alignItems: 'flex-start',
-        backgroundColor : '#444',
+        backgroundColor : '#82877c',
         flexDirection : 'column',
         width: 260,
     }
@@ -100,9 +100,10 @@ export default function Calculadora() {
         padding: 20,
         backgroundColor: '#000',
         color: '#fff',
-        borderColor: '#000',
+        borderColor: '#82877c',
         textAlign: 'center',
         outline: 'none',
+        // borderRadius: '1em'
     }
 
     const conteiner = {
@@ -117,6 +118,7 @@ export default function Calculadora() {
     const botoes = {
         flexDirection: 'row',
         flexWrap: 'wrap',
+        backgroundColor: '#000',
     }
 
     return (
