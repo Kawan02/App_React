@@ -1,5 +1,6 @@
 import React, {useStatem, useEffect} from 'react'
-import JogoV from './Components/Draft/JogoDaVelha/JogoV'
+import ListaCarros from './Components/Draft/ApiNodeJS/ListaCarros'
+// import JogoV from './Components/Draft/JogoDaVelha/JogoV'
 // import AppState from './Components/Draft/AppState'
 // import AppCalculadora from './Components/Draft/Prática/Calculadora/AppCalculadora'
 // // import Calculadora from './Components/Draft/CalculadoraMatematica/Calculadora'
@@ -12,7 +13,7 @@ export default function App() {
 
   return(
     <>
-     <JogoV/>
+     <ListaCarros/>
     </>
   )
 }
