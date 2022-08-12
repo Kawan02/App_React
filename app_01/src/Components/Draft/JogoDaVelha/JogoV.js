@@ -146,7 +146,7 @@ export default function JogoV() {
     return(
         <section className = "tabu_01">
             <div>
-                <h2 className = "teste">Jogo da Tabuada</h2>
+                <h2 className = "teste">Jogo da velha</h2>
             </div>
             <div>
                 <p className = "teste">Quem joga: {simboloAtual}</p>
