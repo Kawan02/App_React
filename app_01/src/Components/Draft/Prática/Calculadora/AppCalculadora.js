@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import Peso from "./Peso/Peso"
 import Altura from "./Altura/Altura"
 import CalcularIMC from "./Calcular/CalcularIMC"
@@ -10,6 +10,11 @@ export default function AppCalculadora() {
     const [peso, setPeso] =  useState()
     const [altura, setAltura] = useState()
     const [resultado, setResultado] = useState(0)
+
+    useEffect(() => {
+        setResultado(()=> (peso/(altura * altura)))
+
+    }, [peso, altura])
 
     return (
         <>

@@ -73,16 +73,16 @@ const Altura = (altura, set) => {
     )
 }
 
-const calcular = (p, a, sr) => {
-    const calc = () => {
-        sr(p/(a*a))
-    }
-    return (
-        <div> 
-            <button className = "bot" onClick = {calc}>Calcular</button>
-        </div>
-    )
-}
+// const calcular = (p, a, sr) => {
+//     const calc = () => {
+//         sr(p/(a*a))
+//     }
+//     return (
+//         <div> 
+//             <button className = "bot" onClick = {calc}>Calcular</button>
+//         </div>
+//     )
+// }
 
 const Resultado = (r) => {
     return (
@@ -94,6 +94,8 @@ const Resultado = (r) => {
     )
 }
 
+
+
 export default function Calc() {
    
     const [peso, setPeso] =  useState()
@@ -101,24 +103,27 @@ export default function Calc() {
     const [resultado, setResultado] = useState(0)
 
 
+   
     useEffect(() => {
         document.title = "CalculadoraIMC"
     })
 
     useEffect(() => {
-
-        calcular();
+        setResultado(()=> (peso/(altura * altura)))
 
     }, [peso, altura])
+
     
     return (
         <>
             {Peso(peso, setPeso)}
             {Altura(altura, setAltura)}
-            {calcular(peso, altura, setResultado)}
+            {/* {calcular(peso, altura, setResultado)} */}
             {Resultado(resultado)}
             {TabelaIMC()}
-            {/* <p onClick = {()=> setResultado()}>Qualquer: {resultado.toFixed(2)}</p> */}
+
+            {/* <input type = "text" value = {resultado.toFixed(2)} 
+            onChange = {(e) => setResultado(e.target.value)} required/> */}
         </>
     )
 }
