@@ -149,7 +149,7 @@ export default function JogoV() {
                 <h2 className = "teste">Jogo da velha</h2>
             </div>
             <div>
-                <p className = "teste">Quem joga: {simboloAtual}</p>
+                <p className = "teste">Jogador atual: {simboloAtual}</p>
             </div>
             <div>
                 {tabuleiro(jogo)}

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import './StyleCalculadora.css'
 
 export default function Calculadora() {
@@ -121,9 +121,19 @@ export default function Calculadora() {
         backgroundColor: '#000',
     }
 
+    useEffect (()=> {
+
+        if (Operacao && valorTela) {
+            Operacao()
+        } else  {
+             setResultado ("Digite")
+        }
+       
+    },[valorTela])
+
     return (
         <>
-            <div style = {conteiner}>
+            <div  style = {conteiner}>
                 <h3>Calculadora Matemática Simples</h3>
                 {Tela(valorTela, resultado)}
                     <div style = {botoes}>
