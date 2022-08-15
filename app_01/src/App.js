@@ -1,19 +1,11 @@
-import React, {useStatem, useEffect} from 'react'
-import ListaCarros from './Components/Draft/ApiNodeJS/ListaCarros'
-// import JogoV from './Components/Draft/JogoDaVelha/JogoV'
-// import AppState from './Components/Draft/AppState'
-// import AppCalculadora from './Components/Draft/Prática/Calculadora/AppCalculadora'
-// // import Calculadora from './Components/Draft/CalculadoraMatematica/Calculadora'
-// // import AppCalculadora from './Components/Draft/Prática/Calculadora/AppCalculadora'
-// import Calc from './Components/Draft/Prática/Calculadora/Calc'
-// import JogoV from './Components/Draft/JogoDaVelha/JogoV'
-
+import React from 'react'
+import Fetch from './Components/Draft/ApiNodeJS/Fetch/Fetch'
 
 export default function App() {
 
   return(
     <>
-     <ListaCarros/>
+        <Fetch/>
     </>
   )
 }

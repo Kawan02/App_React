@@ -8,7 +8,7 @@ export default class ListaCarros extends React.Component() {
     }
 
     componentDidMount() {
-        axios.get("https://APIReact01.kawanmessias.repl.co")
+        axios.get('https://APIReact01.kawanmessias.repl.co')
             .then(res => {
                 const dadosCarros = res.data
                 this.setState({carros: dadosCarros})
@@ -19,7 +19,7 @@ export default class ListaCarros extends React.Component() {
         return (
             <div>
                 {this.state.carros.map(
-                    carro => <div key = {carro.id}>{carro.marca} - {carro.modelo}</div> 
+                    carro => <div key ={carro.id}> {carro.id} - {carro.marca} - {carro.modelo}</div> 
                 )}
             </div>
         )
